@@ -1,0 +1,11 @@
+{
+  "name": "infinite-scroll-blog",
+  "version": "1.0.0",
+  "description": "simple infinite scroll functionality",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Georgi Yordanov",
+  "license": "ISC"
+}

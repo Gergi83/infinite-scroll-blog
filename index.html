@@ -2,41 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Infinite Scroller</title>
 </head>
 
 <body>
     <h1>Infinite Scroller</h1>
+
     <div class="filter-container">
-        <input type="text" class="filter" id="filter" placeholder="Filter content">
+        <input type="text" id="filter" class="filter" placeholder="Filter posts..." />
     </div>
-    <div id="post-container">
-        <div class="post">
-            <div class="num">1</div>
-            <div class="post-info">
-                <h2 class="post-title">post 1</h2>
-                <p class="post-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam at assumenda
-                    tempora deserunt, architecto obcaecati cupiditate corporis? Magni, reprehenderit explicabo.</p>
-            </div>
-        </div>
-        <div class="post">
-            <div class="num">2</div>
-            <div class="post-info">
-                <h2 class="post-title">post 2</h2>
-                <p class="post-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, doloribus
-                    molestias corporis itaque ut laudantium eos magni cum consequatur cupiditate?</p>
-            </div>
-        </div>
-    </div>
+
+    <div id="posts-container"></div>
+
     <div class="loader">
         <div class="circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
     </div>
+
     <script src="script.js"></script>
 </body>
 
